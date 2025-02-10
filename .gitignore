@@ -1,0 +1,44 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+.vite/  # Ignore Vite cache
+
+# Local environment files
+*.local
+.env*  # Prevents environment files from being pushed
+
+# TypeScript configs (not needed in production)
+tsconfig*.json
+
+eslint.config.js
+postcss.config.js
+tailwind.config.js
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json  # Allow recommended extensions
+.idea/
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+
+# IDE-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
