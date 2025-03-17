@@ -6,7 +6,7 @@ const navigation = [
   { name: 'Acerca', href: '#about' },
   { name: 'Horarios', href: '#services' },
   { name: 'Grupos', href: '#groups' },
-  { name: 'Avisos', href: '#events' },
+  { name: 'Actividades y Avisos', href: '#events' },
   { name: 'Contacto', href: '#contact' },
 ];
 
@@ -20,7 +20,7 @@ export default function Navbar() {
           <Church className="h-8 w-8 text-blue-600" />
           <span className="text-xl font-semibold text-gray-900">Santa Ana</span>
         </div>
-        
+
         <div className="hidden lg:flex lg:gap-x-8">
           {navigation.map((item) => (
             <a
